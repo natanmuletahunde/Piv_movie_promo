@@ -27,17 +27,17 @@ const HomePage = () => {
     {
       title: 'The Lord of the Rings',
       description: 'An epic journey to destroy the One Ring.',
-      image: 'https://m.media-amazon.com/images/I/51Qvs9i5a%2BL._AC_.jpg',
+      image: 'https://assets-prd.ignimgs.com/2022/07/29/hobbit-1-1659123079896.jpg',
     },
     {
       title: 'Avatar',
       description: 'A human explores a beautiful but dangerous alien world.',
-      image: 'https://m.media-amazon.com/images/I/41vuKQeOH0L._AC_.jpg',
+      image: 'https://akm-img-a-in.tosshub.com/indiatoday/images/story/202212/avatar_2_movie_review-one_one.jpg?VersionId=ql_8qA_NEEEeNQvuXDtQDAfEap.Lzd5d.jpg',
     },
     {
       title: 'Gladiator',
       description: 'A Roman general seeks vengeance after being betrayed.',
-      image: 'https://m.media-amazon.com/images/I/51AwiqYQNeL._AC_.jpg',
+      image: 'https://i.pinimg.com/736x/4f/49/5e/4f495e0b481e2b7279a5d9f9e29c85be.jpg',
     },
     {
       title: 'Titanic',

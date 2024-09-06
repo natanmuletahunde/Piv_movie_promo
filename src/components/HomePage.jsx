@@ -110,7 +110,7 @@ const HomePage = () => {
           }}
         >
           <div className="h-full bg-black bg-opacity-50 flex items-center justify-center text-white">
-            <h2 className="text-2xl font-bold">Title 1</h2>
+            
           </div>
         </div>
 
@@ -123,7 +123,7 @@ const HomePage = () => {
           }}
         >
           <div className="h-full bg-black bg-opacity-50 flex items-center justify-center text-white">
-            <h2 className="text-2xl font-bold">Title 2</h2>
+           
           </div>
         </div>
 
@@ -136,7 +136,6 @@ const HomePage = () => {
           }}
         >
           <div className="h-full bg-black bg-opacity-50 flex items-center justify-center text-white">
-            <h2 className="text-2xl font-bold">Title 3</h2>
           </div>
         </div>
       </div>

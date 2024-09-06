@@ -52,9 +52,9 @@ const HomePage = () => {
   ];
 
   return (
-    <section className="flex flex-col items-center justify-center bg-gray-100 py-12">
+    <section className="flex flex-col items-center justify-center bg-blue-900 py-12">
       {/* Big div with welcome message */}
-      <div className="text-center bg-white p-12 rounded-lg shadow-lg mb-12">
+      <div className="text-center bg-white p-12 rounded-lg shadow-lg mb-12 w-3/4">
         <h1 className="text-6xl font-bold mb-4">Welcome to PIV Movies Promotion</h1>
         <p className="text-lg mb-6">
           Discover the latest movie releases and upcoming events. We provide information about movies, cast, and trailers.
@@ -63,11 +63,11 @@ const HomePage = () => {
       </div>
 
       {/* 3-column grid with 9 movie blogs */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 container mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 container mx-auto">
         {movieBlogs.map((movie, index) => (
-          <div key={index} className="bg-white p-6 rounded-lg shadow-md">
-            <img src={movie.image} alt={movie.title} className="w-full h-48 object-cover rounded-md mb-4" />
-            <h3 className="text-xl font-bold mb-2">{movie.title}</h3>
+          <div key={index} className="bg-white p-8 rounded-lg shadow-md">
+            <img src={movie.image} alt={movie.title} className="w-full h-64 object-cover rounded-md mb-4" />
+            <h3 className="text-2xl font-bold mb-2">{movie.title}</h3>
             <p className="text-gray-600">{movie.description}</p>
           </div>
         ))}

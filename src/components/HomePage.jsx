@@ -42,7 +42,7 @@ const HomePage = () => {
     {
       title: 'Titanic',
       description: 'A love story aboard the ill-fated ship, Titanic.',
-      image: 'https://asianatimes.com/wp-content/uploads/2022/07/7Y10vpS2-232e10e134cf1d24f10dae39073377d7.jpg',
+      image: 'https://prdaficalmjediwestussa.blob.core.windows.net/images/2020/05/AFI20_Titanic_Blog_Image.jpg',
     },
     {
       title: 'Jurassic Park',

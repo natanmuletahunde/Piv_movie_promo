@@ -52,11 +52,11 @@ const HomePage = () => {
   ];
 
   return (
-    <section className="flex flex-col items-center justify-center bg-blue-900 py-12">
+    <section className="flex flex-col items-center justify-center bg-black py-12">
       {/* Big div with welcome message */}
       <div className="text-center bg-white p-12 rounded-lg shadow-lg mb-12 w-3/4">
-        <h1 className="text-6xl font-bold mb-4">Welcome to PIV Movies Promotion</h1>
-        <p className="text-lg mb-6">
+        <h1 className="text-6xl font-bold mb-4 text-white">Welcome to PIV Movies Promotion</h1>
+        <p className="text-lg mb-6 text-gray-300">
           Discover the latest movie releases and upcoming events. We provide information about movies, cast, and trailers.
         </p>
         <img src="src/assets/movie-banner.jpg" alt="Movies" className="w-full h-64 object-cover rounded-md" />
@@ -65,10 +65,10 @@ const HomePage = () => {
       {/* 3-column grid with 9 movie blogs */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 container mx-auto">
         {movieBlogs.map((movie, index) => (
-          <div key={index} className="bg-white p-8 rounded-lg shadow-md">
+          <div key={index} className="bg-gray-800 p-8 rounded-lg shadow-md hover:bg-gray-700 transition-all duration-300">
             <img src={movie.image} alt={movie.title} className="w-full h-64 object-cover rounded-md mb-4" />
-            <h3 className="text-2xl font-bold mb-2">{movie.title}</h3>
-            <p className="text-gray-600">{movie.description}</p>
+            <h3 className="text-2xl font-bold text-white mb-2">{movie.title}</h3>
+            <p className="text-gray-300">{movie.description}</p>
           </div>
         ))}
       </div>

@@ -101,29 +101,45 @@ const HomePage = () => {
 
       {/* Three big divs with background images */}
       <div className="mt-12 w-full flex flex-col gap-6">
+        {/* First div */}
+        <div
+          className="bg-cover bg-center h-96 rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105"
+          style={{
+            backgroundImage:
+              "url(https://images-1.rakuten.tv/storage/snapshot/shot/dc1babd1-8119-49b1-905f-9735430e1911-snapshot-1590664727-width936-quality90.jpeg)",
+          }}
+        >
+          <div className="h-full bg-black bg-opacity-50 flex items-center justify-center text-white">
+            <h2 className="text-2xl font-bold">Title 1</h2>
+          </div>
+        </div>
 
-{/* First div */}
-<div className="bg-cover bg-center h-96 rounded-lg shadow-lg" style={{ backgroundImage: 'url(https://images-1.rakuten.tv/storage/snapshot/shot/dc1babd1-8119-49b1-905f-9735430e1911-snapshot-1590664727-width936-quality90.jpeg)' }}>
-  <div className="h-full bg-black bg-opacity-50 flex items-center justify-center text-white">
-    <h2 className="text-4xl font-bold">Explore New Releases</h2>
-  </div>
-</div>
+        {/* Second div */}
+        <div
+          className="bg-cover bg-center h-96 rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105"
+          style={{
+            backgroundImage:
+              "url(https://cdn.flickeringmyth.com/wp-content/uploads/2022/05/SharkBait_AppleTrailers_Poster_2.jpg)",
+          }}
+        >
+          <div className="h-full bg-black bg-opacity-50 flex items-center justify-center text-white">
+            <h2 className="text-2xl font-bold">Title 2</h2>
+          </div>
+        </div>
 
-{/* Second div */}
-<div className="bg-cover bg-center h-96 rounded-lg shadow-lg" style={{ backgroundImage: 'url(https://image-url.com/second-image.jpg)' }}>
-  <div className="h-full bg-black bg-opacity-50 flex items-center justify-center text-white">
-    <h2 className="text-4xl font-bold">Upcoming Events</h2>
-  </div>
-</div>
-
-{/* Third div */}
-<div className="bg-cover bg-center h-96 rounded-lg shadow-lg" style={{ backgroundImage: 'url(https://image-url.com/third-image.jpg)' }}>
-  <div className="h-full bg-black bg-opacity-50 flex items-center justify-center text-white">
-    <h2 className="text-4xl font-bold">Behind the Scenes</h2>
-  </div>
-</div>
-
-</div>
+        {/* Third div */}
+        <div
+          className="bg-cover bg-center h-96 rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105"
+          style={{
+            backgroundImage:
+              "url(https://images.bauerhosting.com/legacy/empire-images/articles/57b338a20c6437272f5d0881/bill-skargard-it-pennywise.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80)",
+          }}
+        >
+          <div className="h-full bg-black bg-opacity-50 flex items-center justify-center text-white">
+            <h2 className="text-2xl font-bold">Title 3</h2>
+          </div>
+        </div>
+      </div>
     </section>
   );
 };

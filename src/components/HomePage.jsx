@@ -47,7 +47,7 @@ const HomePage = () => {
     {
       title: 'Jurassic Park',
       description: 'Dinosaurs are brought back to life in a theme park.',
-      image: 'https://m.media-amazon.com/images/I/51oT9tZ-rQL._AC_.jpg',
+      image: 'https://hips.hearstapps.com/hmg-prod/images/jurassic-park-movies-in-order-2018-jurassic-world-fallen-kingdom-1655123535.jpeg?crop=0.667xw:1.00xh;0,0&resize=980:*.jpg',
     },
   ];
 

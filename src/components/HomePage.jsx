@@ -55,8 +55,8 @@ const HomePage = () => {
     <section className="flex flex-col items-center justify-center bg-black py-12">
       {/* Big div with welcome message */}
       <div className="text-center bg-white p-12 rounded-lg shadow-lg mb-12 w-3/4">
-        <h1 className="text-6xl font-bold mb-4 text-white">Welcome to PIV Movies Promotion</h1>
-        <p className="text-lg mb-6 text-gray-300">
+        <h1 className="text-6xl font-bold mb-4 text-black">Welcome to PIV Movies Promotion</h1>
+        <p className="text-lg mb-6 text-black">
           Discover the latest movie releases and upcoming events. We provide information about movies, cast, and trailers.
         </p>
         <img src="src/assets/movie-banner.jpg" alt="Movies" className="w-full h-64 object-cover rounded-md" />

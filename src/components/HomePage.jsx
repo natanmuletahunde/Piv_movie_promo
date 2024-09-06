@@ -22,7 +22,7 @@ const HomePage = () => {
     {
       title: 'The Matrix',
       description: 'A hacker discovers the disturbing truth about reality.',
-      image: 'https://m.media-amazon.com/images/I/51EG732BV3L._AC_.jpg',
+      image: 'https://images.squarespace-cdn.com/content/v1/6256f292b9dd990c2cdbc28f/a068464f-0e4d-454f-b746-f41e01f459f2/Ep+90-The+Matrix-Website.jpg',
     },
     {
       title: 'The Lord of the Rings',

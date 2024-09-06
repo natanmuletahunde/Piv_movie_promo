@@ -17,7 +17,7 @@ const HomePage = () => {
     {
       title: 'Interstellar',
       description: 'A space adventure to save humanity from extinction.',
-      image: 'https://m.media-amazon.com/images/I/61y-TWElcDL._AC_SY679_.jpg',
+      image: 'https://www.hauweele.net/~gawen/blog/wp-content/uploads/2014/11/interstellar.jpg',
     },
     {
       title: 'The Matrix',

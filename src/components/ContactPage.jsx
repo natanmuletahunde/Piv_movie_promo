@@ -6,7 +6,7 @@ const ContactPage = () => {
     <section
       className="relative flex items-center justify-center min-h-screen bg-cover bg-center"
       style={{
-        backgroundImage: "url('https://your-image-url-here.jpg')", // Replace with your image URL
+        backgroundImage: "url('https://cdn.pixabay.com/photo/2019/04/24/21/55/cinema-4153289_640.jpg')", 
       }}
     >
       <div className="bg-black bg-opacity-70 border-2 border-white p-8 rounded-lg backdrop-blur-md">

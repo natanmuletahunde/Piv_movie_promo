@@ -138,7 +138,7 @@ const HomePage = () => {
   {/* Additional information divs */}
   <div className="mt-12 w-full flex flex-col md:flex-row gap-6 justify-center">
   {/* Use This Website div */}
-  <div className="bg-gray-800 p-8 rounded-lg shadow-md flex-1 max-w-sm relative border-2 border-white backdrop-blur-md transition-transform duration-300 transform hover:scale-105 hover:shadow-lg">
+  <div className="bg-gray-800 p-8 rounded-lg shadow-md flex-1 max-w-sm relative border-2 border-black backdrop-blur-md transition-transform duration-300 transform hover:scale-105 hover:shadow-lg">
     <h2 className="text-2xl font-bold text-white mb-4">Use This Website</h2>
     <p className="text-gray-300">
       Welcome to PIV Movies Promotion! Our website is designed for movie enthusiasts and casual viewers alike. Here, you can explore a comprehensive database of the latest movie releases, read insightful reviews, and discover upcoming events in the film industry. Whether you are looking for the next blockbuster hit or an indie gem, our curated lists and articles provide all the information you need. Additionally, we offer trailers and sneak peeks to keep you informed and excited. Join us to enhance your movie-watching experience and never miss out on the latest buzz in cinema!
@@ -146,7 +146,7 @@ const HomePage = () => {
   </div>
 
   {/* Aim of This Website div */}
-  <div className="bg-gray-800 p-8 rounded-lg shadow-md flex-1 max-w-sm relative border-2 border-white backdrop-blur-md transition-transform duration-300 transform hover:scale-105 hover:shadow-lg">
+  <div className="bg-gray-800 p-8 rounded-lg shadow-md flex-1 max-w-sm relative border-2 border-black backdrop-blur-md transition-transform duration-300 transform hover:scale-105 hover:shadow-lg">
     <h2 className="text-2xl font-bold text-white mb-4">Aim of This Website</h2>
     <p className="text-gray-300">
       The primary aim of PIV Movies Promotion is to create a vibrant community for movie lovers. We strive to provide a platform that not only informs but also engages users in discussions about films. By offering detailed information about movie releases, cast, and production details, we want to empower our audience to make informed choices about what to watch. Furthermore, we aim to support filmmakers and the film industry by promoting upcoming projects and events. Our goal is to foster a love for cinema and provide a space where fans can come together to celebrate their passion for movies.

@@ -53,26 +53,49 @@ const HomePage = () => {
 
   return (
     <section className="flex flex-col items-center justify-center bg-black py-12">
-    {/* Big div with welcome message and background image */}
-    <div className="text-center bg-cover bg-center p-12 rounded-lg shadow-lg mb-12 w-3/4" style={{ backgroundImage: 'url(https://img.freepik.com/premium-photo/back-view-man-watching-movie-sofa-night-room-text_410516-26737.jpg)' }}>
-      <h1 className="text-6xl font-bold mb-4 text-white">Welcome to PIV Movies Promotion</h1>
-      <p className="text-lg mb-6 text-gray-200">
-        Discover the latest movie releases and upcoming events. We provide information about movies, cast, and trailers.
-      </p>
-    </div>
-  
-    {/* 3-column grid with 9 movie blogs */}
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-10 container mx-auto">
-      {movieBlogs.map((movie, index) => (
-        <div key={index} className="bg-gray-800 p-8 rounded-lg shadow-md hover:bg-gray-700 transition-all duration-300">
-          <img src={movie.image} alt={movie.title} className="w-full h-64 object-cover rounded-md mb-4" />
-          <h3 className="text-2xl font-bold text-white mb-2">{movie.title}</h3>
-          <p className="text-gray-300">{movie.description}</p>
+      {/* Big div with welcome message and background image */}
+      <div className="text-center bg-cover bg-center p-12 rounded-lg shadow-lg mb-12 w-3/4" style={{ backgroundImage: 'url(https://img.freepik.com/premium-photo/back-view-man-watching-movie-sofa-night-room-text_410516-26737.jpg)' }}>
+        <h1 className="text-6xl font-bold mb-4 text-white">Welcome to PIV Movies Promotion</h1>
+        <p className="text-lg mb-6 text-gray-200">
+          Discover the latest movie releases and upcoming events. We provide information about movies, cast, and trailers.
+        </p>
+      </div>
+
+      {/* 3-column grid with 9 movie blogs */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 container mx-auto">
+        {movieBlogs.map((movie, index) => (
+          <div key={index} className="bg-gray-800 p-8 rounded-lg shadow-md hover:bg-gray-700 transition-all duration-300">
+            <img src={movie.image} alt={movie.title} className="w-full h-64 object-cover rounded-md mb-4" />
+            <h3 className="text-2xl font-bold text-white mb-2">{movie.title}</h3>
+            <p className="text-gray-300">{movie.description}</p>
+          </div>
+        ))}
+      </div>
+
+      {/* Three big divs with background images */}
+      <div className="mt-12 w-full grid grid-cols-1 md:grid-cols-3 gap-6">
+        {/* First div */}
+        <div className="bg-cover bg-center h-64 rounded-lg shadow-lg" style={{ backgroundImage: 'url(https://image-url.com/first-image.jpg)' }}>
+          <div className="h-full bg-black bg-opacity-50 flex items-center justify-center text-white">
+            <h2 className="text-4xl font-bold">Explore New Releases</h2>
+          </div>
         </div>
-      ))}
-    </div>
-  </section>
-  
+
+        {/* Second div */}
+        <div className="bg-cover bg-center h-64 rounded-lg shadow-lg" style={{ backgroundImage: 'url(https://image-url.com/second-image.jpg)' }}>
+          <div className="h-full bg-black bg-opacity-50 flex items-center justify-center text-white">
+            <h2 className="text-4xl font-bold">Upcoming Events</h2>
+          </div>
+        </div>
+
+        {/* Third div */}
+        <div className="bg-cover bg-center h-64 rounded-lg shadow-lg" style={{ backgroundImage: 'url(https://image-url.com/third-image.jpg)' }}>
+          <div className="h-full bg-black bg-opacity-50 flex items-center justify-center text-white">
+            <h2 className="text-4xl font-bold">Behind the Scenes</h2>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 };
 

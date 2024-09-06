@@ -9,7 +9,7 @@ const ContactPage = () => {
         backgroundImage: "url('https://cdn.pixabay.com/photo/2019/04/24/21/55/cinema-4153289_640.jpg')", 
       }}
     >
-      <div className="bg-black bg-opacity-70 border-2 border-white p-8 rounded-lg backdrop-blur-md">
+      <div className="bg-black bg-opacity-70 border-2 border-black p-8 rounded-lg backdrop-blur-md">
         <h2 className="text-3xl font-bold mb-4 text-white">Contact Us</h2>
         <form className="space-y-4">
           <input

@@ -12,7 +12,7 @@ const HomePage = () => {
     {
       title: 'The Dark Knight',
       description: 'A crime thriller featuring the legendary Batman.',
-      image: 'https://m.media-amazon.com/images/I/51WjxbxxVPL._AC_SY679_.jpg',
+      image: 'https://images.moviesanywhere.com/bd47f9b7d090170d79b3085804075d41/c6140695-a35f-46e2-adb7-45ed829fc0c0.jpg',
     },
     {
       title: 'Interstellar',

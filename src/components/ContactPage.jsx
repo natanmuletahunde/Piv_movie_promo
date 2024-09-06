@@ -3,14 +3,38 @@ import React from 'react';
 
 const ContactPage = () => {
   return (
-    <section className="container mx-auto p-8">
-      <h2 className="text-3xl font-bold mb-4">Contact Us</h2>
-      <form className="space-y-4">
-        <input type="text" placeholder="Your Name" className="border p-2 w-full" />
-        <input type="email" placeholder="Your Email" className="border p-2 w-full" />
-        <textarea placeholder="Your Message" className="border p-2 w-full" rows="5"></textarea>
-        <button type="submit" className="bg-blue-600 text-white px-4 py-2 rounded">Submit</button>
-      </form>
+    <section
+      className="relative flex items-center justify-center min-h-screen bg-cover bg-center"
+      style={{
+        backgroundImage: "url('https://your-image-url-here.jpg')", // Replace with your image URL
+      }}
+    >
+      <div className="bg-black bg-opacity-70 border-2 border-white p-8 rounded-lg backdrop-blur-md">
+        <h2 className="text-3xl font-bold mb-4 text-white">Contact Us</h2>
+        <form className="space-y-4">
+          <input
+            type="text"
+            placeholder="Your Name"
+            className="border border-white p-2 w-full bg-transparent text-white"
+          />
+          <input
+            type="email"
+            placeholder="Your Email"
+            className="border border-white p-2 w-full bg-transparent text-white"
+          />
+          <textarea
+            placeholder="Your Message"
+            className="border border-white p-2 w-full bg-transparent text-white"
+            rows="5"
+          ></textarea>
+          <button
+            type="submit"
+            className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-500 transition"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
     </section>
   );
 };

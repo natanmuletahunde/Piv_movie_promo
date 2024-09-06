@@ -7,7 +7,7 @@ const HomePage = () => {
     {
       title: 'Inception',
       description: 'A mind-bending thriller about dream manipulation.',
-      image: 'https://m.media-amazon.com/images/I/51V5ZpFyaFL._AC_.jpg',
+      image: 'https://www.circlesixmagazine.com/cms2/wp-content/uploads/2010/07/inception.jpg',
     },
     {
       title: 'The Dark Knight',
